@@ -77,6 +77,10 @@ h1, h2 { margin: 0; font-family: "Gowun Batang", serif; font-weight: 700; line-h
 .grade-content > p:not(.grade-en) { margin: 14px 0 20px; color: var(--muted); font-size: 14px; }
 .grade-content ul { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; font-size: 14px; }
 .grade-content li::before { margin-right: 10px; color: var(--coral); content: "✓"; }
+.transition-guide { border-top: 1px solid rgba(23,35,31,.25); padding-top: 22px; }
+.transition-guide strong { font-size: 13px; }
+.transition-guide p { margin: 7px 0 5px; color: #b94b34; font-size: 13px; font-weight: 800; }
+.transition-guide span { color: var(--muted); font-size: 12px; }
 
 .areas-heading { display: flex; align-items: end; justify-content: space-between; gap: 60px; }
 .areas-heading > p { max-width: 440px; margin: 0 0 9px; color: var(--muted); }
@@ -180,6 +184,7 @@ h1, h2 { margin: 0; font-family: "Gowun Batang", serif; font-weight: 700; line-h
   .curriculum-photo { min-height: 310px; }
   .curriculum-panel { padding: 72px 22px; }
   .grade-content { min-height: 305px; }
+  .transition-guide p { line-height: 1.9; }
   .area-grid { margin-top: 41px; }
   .area-main { padding: 33px; }
   .area-list { grid-template-columns: repeat(2, 1fr); }
